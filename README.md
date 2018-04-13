@@ -12,13 +12,13 @@ https://www.cnblogs.com/cc11001100/p/7137896.html
 https://blog.csdn.net/JayceDeng/article/details/78886038
 
 ------
-##二、第一步：修改 yum 源
+## 二、第一步：修改 yum 源
 [root@localhost ~]# rpm -Uvh https://dl.Fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 [root@localhost ~]# rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
 [root@localhost ~]# rpm -Uvh  http://dev.mysql.com/get/mysql57-community-release-el7-9.noarch.rpm
 
 ------
-##三、参照他的顺序，先装nginx
+## 三、参照他的顺序，先装nginx
 可以直接参考上面整个流程里面的，但是里面配置的说明很少，只说了要改防火墙，我又参考了别的地方。
 
 ### 1.这里可以看nginx用的哪个配置文件
