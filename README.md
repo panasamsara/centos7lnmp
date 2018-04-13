@@ -1,7 +1,3 @@
-# centos7lnmp
-虚拟机装php环境
-
-
 # 虚拟机装CentOS7.2 以及php7.2 nginx1.12 mysql5.7安装配置
 
 ------
