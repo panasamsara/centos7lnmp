@@ -13,9 +13,9 @@ https://blog.csdn.net/JayceDeng/article/details/78886038
 
 ------
 ## 二、第一步：修改 yum 源
-[root@localhost ~]# rpm -Uvh https://dl.Fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
-[root@localhost ~]# rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
-[root@localhost ~]# rpm -Uvh  http://dev.mysql.com/get/mysql57-community-release-el7-9.noarch.rpm
+### 1.[root@localhost ~]# rpm -Uvh https://dl.Fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+### 2.[root@localhost ~]# rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
+### 3.[root@localhost ~]# rpm -Uvh  http://dev.mysql.com/get/mysql57-community-release-el7-9.noarch.rpm
 
 ------
 ## 三、参照他的顺序，先装nginx
