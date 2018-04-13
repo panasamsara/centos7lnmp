@@ -18,10 +18,12 @@ https://blog.csdn.net/JayceDeng/article/details/78886038
 rpm -Uvh https://dl.Fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 ```
 ### 2.[root@localhost ~]# 
-```phprpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
+```php
+rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
 ```
 ### 3.[root@localhost ~]# 
-```phprpm -Uvh  http://dev.mysql.com/get/mysql57-community-release-el7-9.noarch.rpm
+```php
+rpm -Uvh  http://dev.mysql.com/get/mysql57-community-release-el7-9.noarch.rpm
 ```
 
 ------
