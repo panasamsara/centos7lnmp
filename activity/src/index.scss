@@ -426,3 +426,208 @@ textarea {
 .footer img {
     width: 100%;
 }
+/*新样式*/
+.left-state{
+    display: inline-block;
+    position: relative;
+    top: pxToRem(35);
+    color: #fff;
+}
+.right-state{
+    // background: url(./img/zhuangtailan.png) no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: pxToRem(60);
+    height: 15px;
+    position: relative;
+    top: pxToRem(40);
+    right: pxToRem(-262);
+}
+.back-btn{
+    // background: url(./img/icon-back.png) no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 8px;
+    height: 14px;
+    position: absolute;
+    top: 40px;
+    left: 14px;
+}
+.cover-cover{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0,0,0,0.3);
+}
+.cover-img{
+    background: url(../../activity/add-or-edit/img/disney.jpg) no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 100%;
+    height: pxToRem(400);
+    position: relative;
+    // top: 3px;
+    z-index: -10;
+}
+.user-info{
+    position: absolute;
+    bottom: pxToRem(15);
+    left: pxToRem(48);
+}
+.user-info>.user-icon{
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.user-info>.user-icon>img{
+    width: 100%;
+    height: 100%;
+}
+.user-info>.user-text{
+    display: inline-block;
+    vertical-align: top;
+    color: #fce09e;
+    margin-left: 8px;
+    font-size: pxToRem(24);
+    position: relative;
+    top: pxToRem(4);
+}
+.user-text>.user-title{
+    font-size: pxToRem(20);
+    font-weight: 700;
+}
+.user-text>.user-name{
+    font-size: pxToRem(20);
+    font-weight: 100;
+}
+.user-name>img{
+    width: pxToRem(28);
+    height: pxToRem(18);
+    position: relative;
+    // top: pxToRem(1);
+}
+.activity-about{
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #fff;
+    padding: pxToRem(48)
+}
+.activity-about::-webkit-scrollbar{
+  display:none;
+}
+.detail-info{
+    position: relative;
+}
+.detail-info b{
+    font-weight: 500;
+}
+.detail-info div{
+    height: pxToRem(24);
+    line-height: pxToRem(24);
+}
+.detail-info>.detail-title{
+    font-size: pxToRem(36);
+    font-weight: 550;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: pxToRem(500);
+    height: pxToRem(60);
+    line-height: pxToRem(50);
+    display: block;
+    // vertical-align: top;
+}
+.detail-info>.detail-time{
+    font-size: pxToRem(28);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    height: pxToRem(30);
+    line-height: pxToRem(26);
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: pxToRem(10);
+}
+.detail-info>.detail-addr{
+    font-size: pxToRem(28);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    height: pxToRem(30);
+    line-height: pxToRem(26);
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: pxToRem(10);
+}
+.detail-info>.detail-people{
+    font-size: pxToRem(28);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    height: pxToRem(30);
+    line-height: pxToRem(26);
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: pxToRem(10);
+}
+.detail-time-img{
+    width: pxToRem(24);
+    height: pxToRem(24);
+    position: relative;
+    top: pxToRem(1);
+    margin-right:  pxToRem(10);
+}
+.detail-addr-img{
+    width: pxToRem(24);
+    height: pxToRem(24);
+    position: relative;
+    top: pxToRem(1);
+    margin-right:  pxToRem(10);
+}
+.detail-people-img{
+    width: pxToRem(26);
+    height: pxToRem(20);
+    position: relative;
+    top: pxToRem(1);
+    margin-right:  pxToRem(10);
+}
+.active-process{
+    position: relative;
+    top: pxToRem(30);
+}
+.active-process-title{
+    margin-bottom: pxToRem(20);
+    font-size: pxToRem(28);
+    font-weight: 700;
+    line-height: pxToRem(30);
+}
+.active-process-title>.title-bar{
+    display: inline-block;
+    width: pxToRem(4);
+    height: pxToRem(30);
+    background-color: #A87C4E;
+    margin-right: 9px;
+    vertical-align: text-bottom;
+    position: relative;
+    top: -0.03rem;
+}
+.active-process>.process-content{
+    height: 342px;
+    font-size: pxToRem(28);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 17;
+    /* overflow: hidden; */
+    width: 100%;
+    color: #333;
+}
+
+#staffCheck{
+    display: none;
+}
